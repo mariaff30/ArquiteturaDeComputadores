@@ -23,8 +23,7 @@ li $v0,5
 syscall
 
 move $t1, $v0
-
-sub $t2, $t1, $t0
+div $t2, $t1, $t0
 
 
 li $v0,4
